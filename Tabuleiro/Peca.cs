@@ -13,9 +13,8 @@ namespace Xadres___Console.Tabuleiro
         public int QteMovimento { get; protected set; }
         public Tabuleiro Tab { get; set; }
 
-        public Peca(Posicao posicao, Cor cor, Tabuleiro tab)
+        public Peca(Cor cor, Tabuleiro tab)
         {
-            Posicao = posicao;
             Cor = cor;
             Tab = tab;
             QteMovimento = 0;
