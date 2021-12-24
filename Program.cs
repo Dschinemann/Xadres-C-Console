@@ -6,7 +6,9 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        try
+        PosicaoXadres pos = new PosicaoXadres('a', 1); 
+        Console.WriteLine(pos.toPosicao());
+       /* try
         {
             Tabuleiro tabuleiro = new Tabuleiro(8, 8);
             tabuleiro.ColocarPeca(new Torre(tabuleiro, Cor.preto), new Posicao(0, 0));
@@ -19,6 +21,7 @@ public class Program
         {
             Console.WriteLine(e.Message);
         }
+       */
         Console.ReadLine();
     }
 }
